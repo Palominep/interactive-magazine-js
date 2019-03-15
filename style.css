@@ -1,17 +1,21 @@
-h1 {
+h1{
   color: blue;
 }
-
-p {
-  color: lavender;
-}
-
-button {
-  background-color: lightcyan;
-  color: lavendarblush;
+body{
 
 }
-
-.Julia {
-  background-color: green;
+button{
+  background-color: pink;
+}
+#whatev{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 50px;
+}
+#darnbuttons{
+  border:
+}
+#animebackground{
+  height:100vh;
+  width:100vw;
+  z-index:-1;
 }
