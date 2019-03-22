@@ -1,4 +1,4 @@
-Prompt("Welcome to Palominep's Website!")
+Prompt("Welcome to Palominep's Website!");
 
 function myfunction(){
 document.getElementById("demo").innerHTML = "This is my new text";
