@@ -1,4 +1,4 @@
-Prompt("Welcome to Palominep's Website!");
+var person = promt("Welcome to Palominep's Website! What is your name?");
 
 function myfunction(){
 document.getElementById("demo").innerHTML = "This is my new text";
