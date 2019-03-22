@@ -1,29 +1,54 @@
 <html>
   <head>
       <script src="myJSfile.js"> </script>
+      <script>
+      function myFunction() {
+        var txt;
+        var person = prompt("Please enter your name:", "Harry Potter");
+        if (person == null || person == "") {
+          txt = "User cancelled the prompt.";
+        } else {
+          txt = "Hello " + person + "! How are you today?";
+        }
+        document.getElementById("demo").innerHTML = txt;
+      }
+      </script>
+
+      <link rel="stylesheet" href="style.css">
   </head>
-    <link rel="stylesheet" href="style.css">
+
     <body>
       <img style="position: absolute" id="animebackground" src="animecrossover.jpg"/>
-      <div id="whatev"
-      <h1 id="headone"> SSA- Students' Studying Association </h1>
-      <p id="headtwo"> AFA- Anime-Fandom Association>
-        <a href= "">
+      <div id="whatev">
+        <h1 id="headone"> SSA- Students' Studying Association </h1>
+        <p id="demo"> AFA- Anime-Fandom Association</p>
+        <button onclick ="myFunction()"> Please don't click me </button>
+
+
+
+        <button onclick="document.getElementById('demo').innerHTML = 'World is werd dude'">DUMBBUTTON</button>
+
+        <h2 id="YEET">YEET</h2>
+
+        <button onmouseover="document.getElementById('YEET').innerHTML= 'We're all weebs here'">We're all nerds here</button>
+
           <ul>
-            <li>Studying Is Great></li>
+              <li>Studying Is Great</li>
               <li>Studying is OK</li>
               <li>Studying is Meh</li>
               <li>OK Studying is DEATH</li>
-      </p>
+            </ul>
 
       <p> Use this site to relax with your daily anime content, inluding favorite youtubers, episodes from your favorite anime,
         and even chat with friends, all in one place. As you might have already figured out, this site acts as both a study guide,
-        and platform for all anime fans, with just the click of a button. Mothly anime and manga is reccomended, and updated daily.
+        and platform for all anime fans, with just the click of a button. Monthly anime and manga is reccomended, and updated daily.
         Most importantly,have fun!
+      </p>
 
-    </div>
-    <div id= "darnbuttons">
-      <button onclick="badNameFunction()"> Click to Recieve Daily Studying Materials </button>
+ <img id= "durara1" src= "Durarara.jpg"> Durarara is amazing. </img>
+ <button onlclick="getElementById('durara1').src='Durarara'">
+
+
     </div>
     </body>
 </html>
