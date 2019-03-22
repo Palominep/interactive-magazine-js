@@ -1,4 +1,10 @@
-var person = promt("Welcome to Palominep's Website! What is your name?");
+var person = prompt("Please enter your name", "Harry Potter");
+
+if (person == null || person == "") {
+  txt = "User cancelled the prompt.";
+} else {
+  txt = "Hello " + person + "! How are you today?";
+}
 
 function myfunction(){
 document.getElementById("demo").innerHTML = "This is my new text";
